@@ -37,7 +37,7 @@ i{
 /* layout */
 
 main, header{
-    width: clamp(290px, 75%, 500px);
+    width: clamp(290px, 75%, 600px);
     margin: 0 auto;
 }
 
