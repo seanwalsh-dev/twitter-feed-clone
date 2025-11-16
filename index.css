@@ -37,7 +37,7 @@ i{
 /* layout */
 
 main, header{
-    width: 290px;
+    width: clamp(290px, 75%, 500px);
     margin: 0 auto;
 }
 
@@ -83,12 +83,14 @@ button{
     padding: 20px 0 0 0;
     width: 100%;
     margin: 15px 0;
+    
 }
 
 .tweet-inner{
     display: flex;
     align-items: flex-start;
     gap: 10px;
+    
 }
 
 .tweet-details{
